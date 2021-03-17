@@ -1,0 +1,13 @@
+@import './../assets/scss/common.scss';
+
+.app {
+  position: relative;
+  
+  &--size{
+    height: 100%;
+  }
+
+  &--theme{
+    background-color: $primary-color;
+  }
+}

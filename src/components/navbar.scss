@@ -1,0 +1,51 @@
+@import './../../assets/scss/common.scss';
+
+:root{
+    --height: #{$nav-height};
+    --margin-right: 80px;
+    --menu-color: white;
+}
+
+.navbar{
+    position: sticky;
+    top: 10px;
+
+    &--size{
+        height: var(--height);
+        width: 100%;
+    }
+}
+
+.menus{
+    display: flex;
+    list-style: none;
+    justify-content:flex-end;
+    align-items: center;
+
+    &--size{
+        height: var(--height);
+        // background-color: blue;
+    }
+}
+
+.menu{
+    color: var(--menu-color);
+    font-weight: 600;
+
+    &:not(:last-child){
+        margin-right: var(--margin-right);
+    }
+
+    &:hover{
+        cursor: pointer;
+    }
+
+    &--size{
+
+    }
+}
+
+.menu-link{
+    text-decoration: none;
+    color: inherit;
+}
