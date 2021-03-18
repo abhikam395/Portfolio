@@ -23,7 +23,7 @@ export default class NavbarComponent extends Component {
     }
 
     componentDidMount(){
-        this.observeSections();
+        // this.observeSections();
         let menu = document.getElementsByClassName('menu')[0];
         menu.classList.add('active');
         this.setState({activeMenu: menu});

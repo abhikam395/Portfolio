@@ -4,7 +4,9 @@
 
     &--size{
         height: 60vh;
-        background-color:  blanchedalmond;
     }
-
+    
+    &--theme{
+        background-color: $primary-color;
+    }
 }

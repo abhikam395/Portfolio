@@ -4,7 +4,9 @@
 
     &--size{
         height: 100vh;
-        background-color: red;
     }
 
+    &--theme{
+        background-color: $secondary-color;
+    }
 }
