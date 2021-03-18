@@ -1,5 +1,6 @@
 $primary-color: #271762;
-$nav-height: 80px;
+$nav-height: 60px;
+$margin-right: 20px;
 
 .center{
     width: 60%;
@@ -8,19 +9,129 @@ $nav-height: 80px;
 
 @media (min-width:320px){
     /* smartphones, iPhone, portrait 480x320 phones */
+    .menus{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu{
+        font-size: 13px;
+        font-weight: 500;
+        &:not(:last-child){
+            margin-right: 35px;
+        }
+    }
+
+    .center{
+        width: 90%;
+        margin: none;
+    }
 }
 @media (min-width:481px){
     /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+    .menus{
+        display: flex;     
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu{
+        font-size: 14px;
+        font-weight: 600;
+        &:not(:last-child){
+            margin-right: 50px;
+        }
+    }
+
+    .center{
+        width: 90%;
+        margin: none;
+    }
 } 
 @media (min-width:641px){
     /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+
+    .menus{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu{
+        font-size: 14px;
+        font-weight: 600;
+        &:not(:last-child){
+            margin-right: 60px;
+        }
+    }
+
+    .center{
+        width: 80%;
+        margin: none;
+    }
 }
 @media (min-width:961px){
     /* tablet, landscape iPad, lo-res laptops ands desktops */
+    .menus{
+        display: flex;       
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .menu{
+        font-size: 14px;
+        font-weight: 600;
+        &:not(:last-child){
+            margin-right: 70px;
+        }
+    }
+
+    .center{
+        width: 80%;
+        margin: none;
+    }
 } 
-@media (min-width:1025px){
+@media (min-width:1025px) and (max-width: 1281px){
     /* big landscape tablets, laptops, and desktops */
+
+    .menus{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .menu{
+        font-size: 14px;
+        font-weight: 600;
+        &:not(:last-child){
+            margin-right: 80px;
+        }
+    }
+
+    .center{
+        width: 80%;
+        margin: auto;
+    }
 }
 @media (min-width:1281px){
     /* hi-res laptops and desktops */
+    .menus{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .menu{
+        font-size: 14px;
+        font-weight: 600;
+        &:not(:last-child){
+            margin-right: 80px;
+        }
+    }
+
+    .center{
+        width: 60%;
+        margin: a;
+    }
 }
