@@ -1,6 +1,8 @@
 @import './../../assets/scss/common.scss';
 
 .skillssection{
+    align-items: center;
+    justify-content: center;
 
     &--size{
         height: 60vh;
@@ -9,4 +11,158 @@
     &--theme{
         background-color: $primary-color;
     }
+}
+.skill-title{
+    color: white;
+    font-size: 32px;
+}
+
+.center{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.line{
+    height: 2px;
+    width: 8%;
+}
+
+.skill-description{
+    width: 40%;
+    color: white;
+    font-size: 14px;
+    word-spacing: 2px;
+    margin-top: 30px;
+}
+
+@media (min-width:320px){
+    /* smartphones, iPhone, portrait 480x320 phones */
+
+    .center{
+        width: 90%;
+        margin: none;
+        flex-direction: column;
+    }
+
+    .skillssection{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .column{
+        margin-top: auto;
+    }
+
+    .skill-description{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .user-image{
+        height: 300px;
+        width: 300px;
+        background: url('./../images/circlescircles.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .line{
+        width: 25%;
+    }
+}
+@media (min-width:481px){
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+
+    .center{
+        width: 90%;
+        margin: none;
+    }
+} 
+@media (min-width:641px){
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+
+    .center{
+        width: 80%;
+        margin: none;
+    }
+}
+@media (min-width:961px){
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+    .center{
+        width: 80%;
+        margin: none;
+        flex-direction: row;
+        // align-items: center;
+    }
+
+    .skillssection{
+        flex-direction: column;
+        align-items: center;
+    }
+} 
+@media (min-width:1025px) and (max-width: 1281px){
+    /* big landscape tablets, laptops, and desktops */
+
+    .center{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media (min-width:1281px){
+    /* hi-res laptops and desktops */
+
+    .center{
+        width: 60%;
+        margin: auto;
+        justify-content: flex-end;
+    }
+
+    .skillssection{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        &--size{
+            min-height: calc(100vh - #{$nav-height});
+        }
+    }
+
+    .user-image{
+        height: 550px;
+        width: 550px;
+        background: url('./../images/circlescircles.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .line{
+        width: 80px;
+        height: 4px;
+    }
+
+    .skill-description{
+        width: 50%;
+        line-height: 1.4;
+        text-align: center;
+        color: white;
+        font-size: 14px;
+        word-spacing: 2px;
+        margin-top: 30px;
+    }
+
+    .skill-row{
+        margin-top: 50px;
+    }
+}
+
+.column{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
 }
