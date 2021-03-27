@@ -19,7 +19,7 @@ export default class HomeSection extends Component {
                         <button className="hire-button">Hire Me</button>
                     </div>
                     <div className="homesection__right">
-                        <div className="user-image"></div>
+                        <div className="user-image" />
                     </div>
                 </div>
             </section>

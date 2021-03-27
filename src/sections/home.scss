@@ -68,6 +68,15 @@
     }
 }
 
+// .user-image{
+//     height: 400px;
+//     width: 400px;
+//     background: url('./../images/circlescircles.png');
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     animation: changewidth 3s infinite;
+// }
+
 @media (min-width:320px){
     /* smartphones, iPhone, portrait 480x320 phones */
 
@@ -84,15 +93,10 @@
         &--size{
             height: calc(150vh - #{$nav-height});
         }
-    }
 
-    .user-image{
-        height: 550px;
-        width: 550px;
-        background: url('./../images/circlescircles.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        animation: changewidth 3s infinite;
+        &__right{
+            display: none;
+        }
     }
 }
 @media (min-width:481px){
@@ -128,6 +132,10 @@
         &--size{
             height: calc(100vh - #{$nav-height});
         }
+
+        &__right{
+            display: flex;
+        }
     }
 } 
 @media (min-width:1025px) and (max-width: 1281px){
@@ -161,10 +169,10 @@
     }
 
     .user-image{
-        height: 550px;
-        width: 550px;
+        height: 100px;
+        width: 100px;
         background: url('./../images/circlescircles.png');
-        background-size: contain;
+        background-size: 200;
         background-repeat: no-repeat;
         animation: changewidth 3s infinite;
     }

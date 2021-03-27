@@ -5,7 +5,9 @@ $nav-height: 60px;
 $margin-right: 20px;
 
 .center{
-    margin: auto;
     display: flex;
+    align-items: center;
+    justify-content: center;
     min-height: 100%;
+    margin: auto;
 }

@@ -13,7 +13,7 @@ export default class SkillsCirclesComponent extends Component {
                         a 15.9155 15.9155 0 0 1 0 -31.831"
                     />
                     <path className="circle"
-                        strokeDasharray="30, 100"
+                        strokeDasharray="30 100"
                         d="M18 2.0845
                         a 15.9155 15.9155 0 0 1 0 31.831
                         a 15.9155 15.9155 0 0 1 0 -31.831"

@@ -1,12 +1,97 @@
 @import './../../assets/scss/common.scss';
 
 .contactsection{
+    padding: 50px 0;
+    display: flex;
+    color: white;
 
     &--size{
-        height: 100vh;
+        min-height: 70vh;
+        height: auto;
+        max-height: auto;
     }
 
     &--theme{
         background-color: $primary-color;
+    }
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+
+    &__line{
+        width: 70%;
+        margin: 100px 0;
+        height: 1px;
+        color: rgba($color: lightgrey, $alpha: 0.1);
+    }
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+
+    &--size{
+        margin: auto;
+        max-width: 70%;
+    }
+
+    &__box{
+        display: flex;
+        flex-direction: column;
+        margin-right: 50px;
+    }
+
+    &__row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__input{
+        height: 50px;
+        min-width: 200px;
+        width: 350px;
+        max-width: 350px;
+        border-radius: 5px;
+        outline: none;
+        padding: 10px;
+    }
+
+    &__label{
+        font-size: 12px;
+        margin-bottom: 10px;
+        color: white;
+        font-weight: 500;
+    }
+
+    &__textarea{
+        min-height: 100px;
+        border-radius: 5px;
+        padding: 10px;
+        outline: none;
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    &__mt{
+        margin: 40px 0;
+    }
+
+    &__button{
+        cursor: pointer;
+        font-weight: 500;
+        color: white;
+        background-color: $secondary-color;
+
+        &:hover{
+            background-color: white;
+            color: $primary-color;
+        }
+
+        &--size{
+            height: 50px;
+        }
     }
 }
