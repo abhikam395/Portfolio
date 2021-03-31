@@ -27,7 +27,7 @@
 
 .about-title{
     color: white;
-    font-size: 26px;
+    font-size: 32px;
 }
 
 .line{
@@ -64,7 +64,7 @@
 
 .about-image{
     height: 380px;
-    width: 380px;
+    max-width: 380px;
     background: url('./../images/triangle.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -87,9 +87,14 @@
         justify-content: center;
 
         &--size{
-            height: calc(200vh - #{$nav-height});
+            height: calc(70vh - #{$nav-height});
         }
     }
+
+    .about-image{
+        display: none;
+    }
+    
 }
 
 @media (min-width:481px){
@@ -162,8 +167,8 @@
     }
 
     .about-image{
-        height: 600px;
-        width: 600px;
+        display: flex;
+        max-width: 400px;
         background: url('./../images/triangle.png');
         background-size: contain;
         background-repeat: no-repeat;

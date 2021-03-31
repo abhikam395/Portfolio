@@ -1,82 +1,54 @@
 @import './../../assets/scss/common.scss';
-
 .contactsection{
-    padding: 50px 0;
-    display: flex;
-    color: white;
 
     &--size{
-        min-height: 70vh;
-        height: auto;
-        max-height: auto;
-    }
-
-    &--theme{
-        background-color: $primary-color;
+        width: 100%;
     }
 
     &__content{
         display: flex;
         flex-direction: column;
-        display: none;
+        color: white;
+        align-items: center;
+    }
+
+    &__contact{
+        margin: 50px 0;
+    }
+
+    &__row{
+        display: flex;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    &__info{
+        margin: 40px 0;
+    }
+
+    &__label{
+        margin-left: 20px;
+        font-size: 15px;
+        font-weight: 400;
     }
 
     &__line{
-        width: 70%;
-        margin: 100px 0;
-        height: 1px;
-        color: rgba($color: lightgrey, $alpha: 0.1);
+        background-color: red;
+        width: 50%;
+        margin-top: 100px;
+        border-bottom: none;
+        color: $primary-color;
     }
 }
 
 .form{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
 
     &--size{
-        margin: auto;
-        max-width: 70%;
-    }
-
-    &__box{
-        display: flex;
-        flex-direction: column;
-        margin-right: 50px;
-    }
-
-    &__row{
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    &__input{
-        height: 50px;
-        min-width: 200px;
-        width: 350px;
-        max-width: 350px;
-        border-radius: 5px;
-        outline: none;
-        padding: 10px;
-    }
-
-    &__label{
-        font-size: 12px;
-        margin-bottom: 10px;
-        color: white;
-        font-weight: 500;
-    }
-
-    &__textarea{
-        min-height: 100px;
-        border-radius: 5px;
-        padding: 10px;
-        outline: none;
-        max-width: 100%;
-        min-width: 100%;
-    }
-
-    &__mt{
-        margin: 40px 0;
+        width: 100%;
     }
 
     &__button{
@@ -84,14 +56,120 @@
         font-weight: 500;
         color: white;
         background-color: $secondary-color;
+        margin-top: 50px;
+
+        &--size{
+            width: 350px;
+            height: 40px;
+            border: none;
+            border-radius: 5px;
+        }
 
         &:hover{
             background-color: white;
             color: $primary-color;
         }
+    }
 
-        &--size{
-            height: 50px;
+    &__label{
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    &__input{
+        height: 40px;
+    }
+
+    &__textarea{
+        min-height: 200px;
+        max-width: 100%;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    &__box{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-top: 25px;
+    }
+}
+
+@media (min-width:320px) and (max-width: 480px){
+    /* smartphones, iPhone, portrait 480x320 phones */
+    .form{
+        &__box{
+            width: 100%;
         }
     }
+
+    .contactsection{
+        
+        &__line{
+            width: 100%;
+        }
+    }
+}
+@media (min-width:481px) and (max-width: 640px){
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+    .form{
+        &__box{
+            width: 90%;
+        }
+    }
+
+    .contactsection{
+
+        &__line{
+            width: 90%;
+        }
+    }
+} 
+@media (min-width:641px) and (max-width: 960px){
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    .form{
+        &__box{
+            width: 70%;
+        }
+    }
+
+    .contactsection{
+
+        &__line{
+            width: 70%;
+        }
+    }
+}
+@media (min-width:961px) and (max-width: 1024px){
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    .form{
+        &__box{
+            width: 60%;
+        }
+    }
+
+    .contactsection{
+
+        &__line{
+            width: 60%;
+        }
+    }
+} 
+@media (min-width:1025px) and (max-width: 1281px){
+    /* big landscape tablets, laptops, and desktops */
+    .form{
+        &__box{
+            width: 60%;
+        }
+    }
+
+    .contactsection{
+
+        &__line{
+            width: 60%;
+        }
+    }
+}
+@media (min-width:1281px){
+    /* hi-res laptops and desktops */
 }
