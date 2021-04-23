@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.c8b5fe9b.chunk.css",
-    "main.js": "/static/js/main.b11c221f.chunk.js",
-    "main.js.map": "/static/js/main.b11c221f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5b3b5bda.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5b3b5bda.js.map",
+    "main.css": "/static/css/main.19a3749e.chunk.css",
+    "main.js": "/static/js/main.74c35bd4.chunk.js",
+    "main.js.map": "/static/js/main.74c35bd4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bca2db4b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bca2db4b.js.map",
     "static/js/2.d3091662.chunk.js": "/static/js/2.d3091662.chunk.js",
     "static/js/2.d3091662.chunk.js.map": "/static/js/2.d3091662.chunk.js.map",
-    "static/css/3.98b78b90.chunk.css": "/static/css/3.98b78b90.chunk.css",
-    "static/js/3.d491fa89.chunk.js": "/static/js/3.d491fa89.chunk.js",
-    "static/js/3.d491fa89.chunk.js.map": "/static/js/3.d491fa89.chunk.js.map",
-    "static/js/4.b0296d04.chunk.js": "/static/js/4.b0296d04.chunk.js",
-    "static/js/4.b0296d04.chunk.js.map": "/static/js/4.b0296d04.chunk.js.map",
+    "static/css/3.717ea800.chunk.css": "/static/css/3.717ea800.chunk.css",
+    "static/js/3.c18688f9.chunk.js": "/static/js/3.c18688f9.chunk.js",
+    "static/js/3.c18688f9.chunk.js.map": "/static/js/3.c18688f9.chunk.js.map",
+    "static/js/4.f117bcee.chunk.js": "/static/js/4.f117bcee.chunk.js",
+    "static/js/4.f117bcee.chunk.js.map": "/static/js/4.f117bcee.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/3.98b78b90.chunk.css.map": "/static/css/3.98b78b90.chunk.css.map",
-    "static/css/main.c8b5fe9b.chunk.css.map": "/static/css/main.c8b5fe9b.chunk.css.map",
+    "static/css/3.717ea800.chunk.css.map": "/static/css/3.717ea800.chunk.css.map",
+    "static/css/main.19a3749e.chunk.css.map": "/static/css/main.19a3749e.chunk.css.map",
     "static/js/2.d3091662.chunk.js.LICENSE.txt": "/static/js/2.d3091662.chunk.js.LICENSE.txt",
-    "static/media/1.8e702469.png": "/static/media/1.8e702469.png",
     "static/media/skills.scss": "/static/media/circlescircles.ae40054c.png",
+    "static/media/dashboard.66bf634c.png": "/static/media/dashboard.66bf634c.png",
+    "static/media/ecommerce.266a6bf2.png": "/static/media/ecommerce.266a6bf2.png",
     "static/media/about.scss": "/static/media/triangle.be83550b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5b3b5bda.js",
+    "static/js/runtime-main.bca2db4b.js",
     "static/js/2.d3091662.chunk.js",
-    "static/css/main.c8b5fe9b.chunk.css",
-    "static/js/main.b11c221f.chunk.js"
+    "static/css/main.19a3749e.chunk.css",
+    "static/js/main.74c35bd4.chunk.js"
   ]
 }
