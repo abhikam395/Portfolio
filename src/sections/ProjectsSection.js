@@ -1,6 +1,8 @@
 import React,{Component} from 'react';
 import './projects.scss';
-import image from './../images/1.png';
+import ecommerceimage from './../images/ecommerce.png';
+import dashboardimage from './../images/dashboard.png';
+
 
 export default class ProjectsSection extends Component {
 
@@ -8,11 +10,8 @@ export default class ProjectsSection extends Component {
         super();
         this.state = {
             projects: [
-                {id: 1, name: 'Ecommerce', image: image},
-                {id: 2, name: 'Banking', image: image},
-                {id: 3, name: 'Gaming', image: image},
-                {id: 4, name: 'Ecommerce', image: image},
-                {id: 5, name: 'Ecommerce', image: image},
+                {id: 1, name: 'Ecommerce', image: ecommerceimage, link: 'https://ecommerce.abhishekkamboj.tech'},
+                {id: 2, name: 'Dashboard', image: dashboardimage, link: 'https://dashboard.abhishekkamboj.tech'},
             ]
         }
     }
@@ -23,7 +22,7 @@ export default class ProjectsSection extends Component {
                 <li 
                     className="project project--size" 
                     key={project.id}>
-                        <a href={`/#${project.name}`} className="project__link">
+                        <a href={project.link} className="project__link">
                             <img 
                                 src={project.image} 
                                 key={project.id} 

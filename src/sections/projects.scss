@@ -1,8 +1,12 @@
 @import './../../assets/scss/common.scss';
 
 .projectssection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     &--size{
+        min-height: 70vh;
         height: auto;
     }
 

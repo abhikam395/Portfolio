@@ -16,7 +16,7 @@ export default class HomeSection extends Component {
                             as my stack. And I also build hybrid apps using react native and 
                             native apps using android studio.
                         </p>
-                        <button className="hire-button">Hire Me</button>
+                        <a className="hire-button" href="/#contact">Hire Me</a>
                     </div>
                     <div className="homesection__right">
                         <div className="user-image" />

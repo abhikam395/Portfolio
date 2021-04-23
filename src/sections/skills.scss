@@ -1,11 +1,12 @@
 @import './../../assets/scss/common.scss';
 
 .skillssection{
+    display: flex;
     align-items: center;
     justify-content: center;
 
     &--size{
-        height: 60vh;
+        min-height: 60vh;
     }
     
     &--theme{
@@ -49,7 +50,7 @@
     .skillssection{
         flex-direction: column;
         align-items: center;
-        height: auto;
+        height: 50vh;
     }
 
     .column{
@@ -128,6 +129,7 @@
 
         &--size{
             min-height: calc(100vh - #{$nav-height});
+            height: 60vh;
         }
     }
 

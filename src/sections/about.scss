@@ -46,6 +46,11 @@
 }
 
 .cv-button{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $primary-color;
     margin-top: 30px;
     width: 130px;
     border: none;

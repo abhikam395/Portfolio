@@ -18,7 +18,7 @@ export default class AboutSection extends Component {
                             as my stack. And I also build hybrid apps using react native and 
                             native apps using android studio.
                         </p>
-                        <button className="cv-button">Download CV</button>
+                        <a className="cv-button" href="/resume.pdf">Download CV</a>
                     </div>
                 </div>
             </section>

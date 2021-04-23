@@ -1,5 +1,6 @@
 @import './../../assets/scss/common.scss';
 .contactsection{
+    padding: 100px 0;
 
     &--size{
         width: 100%;
@@ -14,22 +15,6 @@
 
     &__contact{
         margin: 50px 0;
-    }
-
-    &__row{
-        display: flex;
-        font-weight: 400;
-        margin-top: 10px;
-    }
-
-    &__info{
-        margin: 40px 0;
-    }
-
-    &__label{
-        margin-left: 20px;
-        font-size: 15px;
-        font-weight: 400;
     }
 
     &__line{
